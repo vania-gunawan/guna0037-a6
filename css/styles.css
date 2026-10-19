@@ -38,7 +38,7 @@
 }
 
 .nav a:hover, .nav a:focus {
-  color: #F2C94C;
+  color: #8F2840;
   text-decoration: underline;
 }
 
@@ -59,7 +59,7 @@ img {
 }
 
 .hero-section a:hover, .hero-section a:focus {
-  color: #F2C94C;
+  color: #8F2840;
   text-decoration: underline;
 }
 
@@ -86,7 +86,7 @@ img {
 }
 
 .flower-card a:hover, .flower-card a:focus {
-  color: #F2C94C;
+  color: #8F2840;
   text-decoration: underline;
 }
 
@@ -124,7 +124,7 @@ img {
 }
 
 .book-consultation:hover, .book-consultation:focus {
-  color: #F2C94C;
+  color: #8F2840;
   text-decoration: underline;
 }
 
@@ -166,8 +166,18 @@ footer {
     gap: 20px;
 }
 
+.socialmedia {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.footer-nav a,
+.socialmedia a {
+    padding: 12px;
+}
 
 footer a:hover, footer a:focus {
-    color: #F2C94C;
+    color: #8F2840;
     text-decoration: underline;
 }
